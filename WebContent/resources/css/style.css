@@ -1,0 +1,131 @@
+html, body {
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0px;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border-bottom: 1px;
+	font-family: Tahoma, Verdana, sans-serif;
+	width: 90%;
+}
+
+
+th {
+	border-bottom: 1px solid gray;
+	background: none repeat scroll 0 0 #4276B2;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+tr {
+	border-top: 1px solid gray;
+	text-align: center;
+}
+
+
+tr:nth-child(even) {
+	background: #FFFFFF
+} /* TEK VE ÇÝFT SATIRLARIN RENGÝNÝ FARKLI OLMASI */
+tr:nth-child(odd) {
+	background: #BBBBBB
+}
+
+#wrapper {
+	width: 70%;
+	margin-top: 0px
+	
+}
+
+#header {
+	text-align:center; 
+	background: #4267B2;
+	margin-top: 0px;
+	padding: 15px 0px 15px 15px;
+	color: #ffffff
+	 
+}
+
+.add-button {
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 130px;
+	background: #330000;
+	margin-top: 10px;
+	margin-bottom:10px;
+	color: white;
+}
+
+.search-button {
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 130px;
+	background: #ff8000;
+	margin-top: 10px;
+	margin-bottom:10px;
+	color: white;
+}
+
+.back-button{
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 130px;
+	background: #4267B2;
+	margin-top: 30px;
+	
+	
+}
+
+.save-button{
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 130px;
+	background: #526230;
+	margin-top: 30px;
+	color: white;
+	
+	
+}
+
+.update-button{
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 130px;
+	background-color: #006600;
+	margin-top: 10px;
+	margin-bottom:10px;
+	color: white;
+	
+}
+
+.delete-button{
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 130px;
+	background: red;
+	margin-top: 10px;
+	margin-bottom:10px;
+	color: white;
+	
+}
+
